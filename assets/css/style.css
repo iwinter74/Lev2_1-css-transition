@@ -1,0 +1,22 @@
+
+div {
+background: url("https://source.unsplash.com/random") center/cover no-repeat;
+margin: 5%;
+height: 80vh;
+transition-duration: 5s;
+position: relative
+}
+article  {
+    top: 600px;
+    left: 600px;
+    color: white;
+    text-align: center;
+    position: absolute;
+    transition-duration: 5s;
+}
+div:hover {
+    opacity: 0.5;
+}
+div:hover>article {
+    top: 200px
+}
