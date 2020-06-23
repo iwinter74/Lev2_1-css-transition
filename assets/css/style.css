@@ -17,6 +17,6 @@ article  {
 div:hover {
     opacity: 0.5;
 }
-div:hover>article {
+div:hover article {
     top: 200px
 }
